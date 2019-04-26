@@ -1,0 +1,148 @@
+body	{
+	background: black;
+}
+
+.social	{
+	background:white;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+	text-align:center;
+}
+
+#sites	{
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.main-header	{
+	background: black;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+
+
+.footer	{
+	background:#86C232 ;
+	padding: 5px;
+	text-align: center;
+	color: #222629;
+	margin-top: 40px;
+}
+
+#main-menu	{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.button	{
+	color: white;
+	background: black;
+	padding: 10px 25px;
+}
+
+.button:hover	{
+	color: #FF69B4;
+}
+
+a	{
+	text-decoration: none;
+	font-family: Lucida Calligraphy;
+}
+
+.Travel	{
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 2fr 1fr;
+}
+
+.Travel p	{
+	text-align: center;
+}
+
+.Title	{
+	
+	color: black;
+	padding: 50px;
+	text-align: center;
+	font-size: 90;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 5px;
+}
+.square {
+		background-image: url(../images/123.jpg);
+			background-repeat: no-repeat;
+		background-size: cover;
+		height: 60vh;
+		border: 4px #FF69B4 solid;
+}
+.square2 {
+		background-image: url(../images/21.jpeg);
+			background-repeat: no-repeat;
+		background-size: cover;
+	border: 4px #FF69B4 solid;
+
+}
+
+.Title p 	{
+	font-family: Charlemagne Std;
+	font-size: 24;
+	color: #FF69B4;
+}
+
+.social	{
+	color: white;
+	background: #222629;
+	padding: 10px;
+	border: 4px 40e0d0 solid;
+	text-align: center;
+} 
+
+.social	p	{
+	font-family: MV Boli;
+	font-size: 14px;
+}
+
+
+ol	{
+	display: inline-block;
+}
+
+.circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+	background-image: url(../images/LOG.jpg);
+	height:60vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+	background-position: center;
+}
+
+h4	{
+	color: green;
+}
+
+a	{
+	text-decoration: none;
+	color: green;
+}
+
+a:hover	{
+	color:white;
+}
+

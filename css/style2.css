@@ -1,0 +1,128 @@
+body	{
+	background: black;
+}
+
+.social	{
+	background:white;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+	text-align:center;
+}
+
+#sites	{
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.main-header	{
+	background: black;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+
+
+.footer	{
+	background:#86C232 ;
+	padding: 5px;
+	text-align: center;
+	color: #222629;
+	margin-top: 40px;
+}
+
+#main-menu	{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.button	{
+	color: white;
+	background: black;
+	padding: 10px 25px;
+}
+
+.button:hover	{
+	color: #86C232;
+}
+
+a	{
+	text-decoration: none;
+	font-family: Lucida Calligraphy;
+}
+@keyframes jasmine {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+.slideshow {
+  border: 2px black solid;
+  height: 65vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+	margin: 20px;
+}
+
+.slide  {
+  background-position: top;
+  background-size: cover;
+  background-image: url(../images/debut.jpg);
+  background-repeat: no-repeat;
+  animation: jasmine 20s linear infinite 0s;
+}
+.slide2 {
+  background-position: top;
+  background-size: cover;
+  background-image: url(../images/debut2.jpg);
+  background-repeat: no-repeat;
+  animation: jasmine 20s linear infinite 5s;
+}
+.slide3 {
+  background-position: top;
+  background-size: cover;
+  background-image: url(../images/123.jpg);
+  animation: jasmine 20s linear infinite 10s;
+}
+.slide4 {
+  background-position: top;
+  background-size: cover;
+  background-image: url(../images/21.jpeg);
+  background-repeat: no-repeat;
+  animation: jasmine 20s linear infinite 15s;
+}
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity:0;
+}
+.text {
+	height: 25vh;
+	border: 3px violet solid;
+	text-align: center;
+	color: white;
+}
+
+

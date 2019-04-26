@@ -1,0 +1,177 @@
+body	{
+	background: black;
+}
+
+.social	{
+	background:white;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+	text-align:center;
+}
+
+#sites	{
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.main-header	{
+	background: black;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+
+
+.footer	{
+	background:#86C232 ;
+	padding: 5px;
+	text-align: center;
+	color: #222629;
+	margin-top: 40px;
+}
+
+#main-menu	{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.button	{
+	color: white;
+	background: black;
+	padding: 10px 25px;
+}
+
+.button:hover	{
+	color: #86C232;
+}
+
+a	{
+	text-decoration: none;
+	font-family: Lucida Calligraphy;
+}
+@keyframes jasmine {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+.slideshow {
+  border: 2px black solid;
+  height: 65vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+	margin: 20px;
+}
+
+.slide  {
+  background-position: bottom;
+  background-size: cover;
+  background-image: url(../images/wed1.jpg);
+  background-repeat: no-repeat;
+  animation: jasmine 20s linear infinite 0s;
+}
+.slide2 {
+  background-position: top;
+  background-size: cover;
+  background-image: url(../images/wed2.jpg);
+  background-repeat: no-repeat;
+  animation: jasmine 20s linear infinite 5s;
+}
+.slide3 {
+  background-position: top;
+  background-size: cover;
+  background-image: url(../images/wed3.jpg);
+  animation: jasmine 20s linear infinite 10s;
+}
+.slide4 {
+  background-position: top;
+  background-size: cover;
+  background-image: url(../images/wed4.jpg);
+  background-repeat: no-repeat;
+  animation: jasmine 20s linear infinite 15s;
+}
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity:0;
+}
+.text {
+	height: 25vh;
+	border: 3px red solid;
+	text-align: center;
+	color: white;
+}
+
+.detail {
+	height:35vh;
+	border: 2px red solid;
+	margin: 4px;
+}
+.big {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 4px;
+	height: 40vh; 
+}
+.left {
+border: 2px red solid;
+text-align: center;
+color: white;
+margin: 3px;
+
+}
+.right {
+	border: 2px red solid;
+text-align: center;
+color: white;
+margin: 3px;
+
+}
+.detail {
+	text-align: center;
+color: white;
+}
+.border {
+	border: 3px grey solid;
+	height: 150vh;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	margin: 5px;
+}
+
+p {
+	color: white;
+	font-family: MV Boli;
+}
+
+li {
+	text-align:center-right;
+	color: white;
+}
